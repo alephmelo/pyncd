@@ -31,7 +31,7 @@ As we can see, the ncd result was almost 0, so we can say that the two files are
 Now, we are measuring the distance between a square image and a rectangle image.
 ``` python
 x = open('examples/imgs/square.png', 'rb').read() # square image
-y = open(examples/imgs/rectangle.png', 'rb').read() # rectangle image
+y = open('examples/imgs/rectangle.png', 'rb').read() # rectangle image
 ```
 ```
 $ python pyncd.py
@@ -42,7 +42,7 @@ We can see that the distance between the files are 53% alike.
 And finnaly we are measuring the distance between a square image and a circle image.
 ``` python
 x = open('examples/imgs/square.png', 'rb').read() # square image
-y = open(examples/imgs/circle.png', 'rb').read() # circle image
+y = open('examples/imgs/circle.png', 'rb').read() # circle image
 ```
 ```
 $ python pyncd.py
