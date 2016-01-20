@@ -54,6 +54,9 @@ The NCD between the files is 80% now.
 These are great stats considering that the NCD doesn't need to see inside the file. 
 Think big picture!
 
+## To-do
+- [ ] Implement setup.py
+- [ ] Be like ```$ pyncd <file1> <file2>```
 
 #### References
 * Rudi Cilibrasi and Paul M. B. Vitányi. Clustering by compression. *IEEE Transactions on Information Theory*, 51:1523–1545, 2005
