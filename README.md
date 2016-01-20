@@ -7,7 +7,8 @@ using a similarity metric based on compression. The NCD is a non-negative number
 ## Usage
 ```
 git clone git@github.com:alephmelo/pyncd.git
-python pyncd.py
+cd pyncd
+python3 pyncd.py
 ```
 
 Change the names of the files to the names you want to check the distance.
