@@ -57,6 +57,7 @@ Think big picture!
 ## To-do
 - [ ] Implement setup.py
 - [ ] Be like ```$ pyncd <file1> <file2>```
+- [ ] Support directories and create distance matrix. 
 
 #### References
 * Rudi Cilibrasi and Paul M. B. Vitányi. Clustering by compression. *IEEE Transactions on Information Theory*, 51:1523–1545, 2005
