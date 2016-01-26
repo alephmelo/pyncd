@@ -1,7 +1,7 @@
 import lzma
 
-x = open('examples/imgs/square.png', 'rb').read() # file 1 of any type
-y = open('examples/imgs/circle.png', 'rb').read() # file 2 of the same type as file 1
+x = open('examples/txt/1.txt', 'rb').read() # file 1 of any type
+y = open('examples/txt/3.txt', 'rb').read() # file 2 of the same type as file 1
 x_y = x + y # the concatenation of files
 
 x_comp = lzma.compress(x) # compress file 1
