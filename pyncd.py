@@ -1,17 +1,19 @@
 import lzma
+import sys
 
-x = open('examples/txt/1.txt', 'rb').read() # file 1 of any type
-y = open('examples/txt/3.txt', 'rb').read() # file 2 of the same type as file 1
-x_y = x + y # the concatenation of files
+x = open(sys.argv[1], 'rb').read()  # file 1 of any type
+y = open(sys.argv[2], 'rb').read()  # file 2 of the same type as file 1
+x_y = x + y  # the concatenation of files
 
-x_comp = lzma.compress(x) # compress file 1
-y_comp = lzma.compress(y) # compress file 2
-x_y_comp = lzma.compress(x_y) # compress file concatenated
+x_comp = lzma.compress(x)  # compress file 1
+y_comp = lzma.compress(y)  # compress file 2
+x_y_comp = lzma.compress(x_y)  # compress file concatenated
 
 # print len() of each file
 print(len(x_comp), len(y_comp), len(x_y_comp), sep=' ', end='\n')
 
 # magic happens here
-ncd = (len(x_y_comp) - min(len(x_comp), len(y_comp))) / max(len(x_comp), len(y_comp))
+ncd = (len(x_y_comp) - min(len(x_comp), len(y_comp))) / \
+    max(len(x_comp), len(y_comp))
 
 print(ncd)
