@@ -8,7 +8,7 @@ using a similarity metric based on compression. The NCD is a non-negative number
 ```bash
 $ git clone git@github.com:alephmelo/pyncd.git
 $ cd pyncd
-$ python pyncd.py
+$ python pyncd.py <file_1> <file_2>
 ```
 
 Change the names of the files to the names you want to check the distance.
