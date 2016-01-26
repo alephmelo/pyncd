@@ -5,9 +5,10 @@ All data are created equal but some data are more alike than others. The NCD use
 using a similarity metric based on compression. The NCD is a non-negative number 0 ≤ r ≤ 1 representing how different the two files are. Smaller numbers represent more similar files. It is parameter-free in that it doesn’t use any features or background knowledge about the data, and can without changes be applied to different areas and across area boundaries.
 
 ## Usage
-```
-git clone git@github.com:alephmelo/pyncd.git
-python pyncd.py
+```bash
+$ git clone git@github.com:alephmelo/pyncd.git
+$ cd pyncd
+$ python pyncd.py
 ```
 
 Change the names of the files to the names you want to check the distance.
@@ -53,6 +54,10 @@ The NCD between the files is 80% now.
 These are great stats considering that the NCD doesn't need to see inside the file. 
 Think big picture!
 
+## To-do
+- [ ] Implement setup.py
+- [ ] Be like ```$ pyncd <file1> <file2>```
+- [ ] Support directories and create distance matrix. 
 
 #### References
 * Rudi Cilibrasi and Paul M. B. Vitányi. Clustering by compression. *IEEE Transactions on Information Theory*, 51:1523–1545, 2005
