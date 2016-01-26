@@ -56,7 +56,7 @@ Think big picture!
 
 ## To-do
 - [ ] Implement setup.py
-- [ ] Be like ```$ pyncd <file1> <file2>```
+- [x] Be like ```$ pyncd <file1> <file2>```
 - [ ] Support directories and create distance matrix. 
 
 #### References
